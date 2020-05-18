@@ -1,0 +1,5 @@
+Mi orden de la clase yo lo prefiero hacer es:
+Explicar linear regression y su funcion de costo
+Explicar intuitivamente la funcion de costo en una 1D
+Explicar intuitivamente gradiente descent
+con la funcion de costo en 1D
