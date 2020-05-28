@@ -34,7 +34,7 @@ for c in range(1, data_x.shape[1]):
     min = np.amin(x_c)
     data_x[:, c] = (x_c - mean) / (max - min)
 
-l_rate = 5e-1 # 0.0005
+l_rate = 5e-5 # 0.0005
 epochs = 30
 
 # parametros

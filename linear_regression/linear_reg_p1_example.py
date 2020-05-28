@@ -26,7 +26,7 @@ with open('../data/poverty_usa.csv') as csv_file:
 data_x = np.array(data_x, dtype=float)
 data_y = np.array(data_y, dtype=float)
 
-l_rate = 5e-3
+l_rate = 5e-5
 plot_err(data_x, data_y, err_range=(-3, 5), error_step=0.05, slope=p1, old_slope=p1)
 
 for l in range(5):
