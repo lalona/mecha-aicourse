@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 price = 2
-start_x = 2
-
+start_x = 3
 data_y = []
 data_x = []
 with open('../data/kc_house_data.csv') as csv_file:
@@ -14,7 +13,7 @@ with open('../data/kc_house_data.csv') as csv_file:
     for row in csv_reader:
         if line_count != 0:
             x_default = ['1']
-            x_default.extend(row[start_x:])
+            x_default.extend(row[3:])
             data_x.append(x_default)
             data_y.append(row[price])
         line_count += 1
