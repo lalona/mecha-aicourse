@@ -3,6 +3,7 @@ from tensorflow import keras
 # Installa TensorFlow
 
 import tensorflow as tf
+from hello_word import get_a_b
 
 # Define a simple sequential model
 def create_model():
@@ -29,7 +30,7 @@ model = create_model()
 
 model.fit(x_train, y_train, epochs=5)
 
-model.evaluate(x_test,  y_test, verbose=2)
+model.evaluate(x_test,  y_test, verbose=1)
 
 # Save the weights
 model.save('mnist_model.h5')
